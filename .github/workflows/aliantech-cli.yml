@@ -7,8 +7,8 @@
 #
 name: OpenWrt-CI
 
-on:[push, pull_request]
-    types: [published]
+on: [push, pull_request]
+
 
 jobs:
 
