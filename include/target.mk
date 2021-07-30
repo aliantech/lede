@@ -53,9 +53,10 @@ DEFAULT_PACKAGES.router:=\
 	ppp-mod-pppoe \
 	luci-newapi block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw \
 	default-settings luci luci-app-ddns luci-app-upnp luci-app-autoreboot block-mount fdisk lsblk mdadm \
-	luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-unblockmusic luci-app-arpbind \
+	luci-app-filetransfer luci-app-vsftpd luci-app-acme acme acme-dnsapi luci-app-unblockmusic luci-app-arpbind \
 	luci-app-vlmcsd luci-app-wol luci-app-ramfree luci-app-jd-dailybonus luci-app-rclone rclone rclone-ng rclone-webui-react \
-	luci-app-turboacc luci-app-nlbwmon luci-app-accesscontrol ddns-scripts_aliyun ddns-scripts_dnspod
+	luci-app-turboacc luci-app-nlbwmon luci-app-accesscontrol ddns-scripts_aliyun ddns-scripts_dnspod luci-theme-netgear \
+	luci-app-uhttpd
 
 ifneq ($(DUMP),)
   all: dumpinfo
