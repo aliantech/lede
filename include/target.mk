@@ -57,7 +57,7 @@ DEFAULT_PACKAGES.router:=\
 	luci-app-vlmcsd luci-app-wol luci-app-ramfree luci-app-jd-dailybonus luci-app-rclone rclone rclone-ng rclone-webui-react \
 	luci-app-turboacc luci-app-nlbwmon luci-app-accesscontrol ddns-scripts_aliyun ddns-scripts_dnspod luci-theme-netgear \
 	luci-app-uhttpd luci-app-openclash luci-app-adguardhome luci-app-familycloud luci-app-aria2 luci-app-hd-idle \
-	luci-theme-argon luci-app-diskman luci-app-smartdns
+	luci-theme-argon luci-app-diskman
 
 ifneq ($(DUMP),)
   all: dumpinfo
